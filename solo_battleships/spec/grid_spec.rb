@@ -23,7 +23,7 @@ let(:grid) { Grid.new }
     grid['A1'] = ship
     #grid.[]('A1',ship)
 
-    expect(grid["A1"]).to eq ship
+    expect(grid["A1"]).to eq sh
     #grid.[]('A1')
   end    
 end
