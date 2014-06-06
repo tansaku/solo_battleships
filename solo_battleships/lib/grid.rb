@@ -14,8 +14,16 @@ class Grid
 
   end
 
-  def grid_count
+  def count
     @grid.count
+  end
+
+  def [](element)
+    @grid[element]
+  end
+
+  def []=(element, value)
+    @grid[element] = value
   end
 
 end
